@@ -11,29 +11,30 @@ I am assuming you have inserted the CentOS 7 iso in the virtual drive of the VM 
 PROCEDURE
 
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent1.png
+<img  src = https://github.com/anhbka/bk/blob/master/Note/img/cent1.png>
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent2.png
+<img src= https://github.com/anhbka/bk/blob/master/Note/img/cent2.png >
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent3.png
+<img src=https://github.com/anhbka/bk/blob/master/Note/img/cent3.png>
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent4.png
+<img src=https://github.com/anhbka/bk/blob/master/Note/img/cent4.png>
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent5.png
+<img src=https://github.com/anhbka/bk/blob/master/Note/img/cent5.png>
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent6.png
+<img src=https://github.com/anhbka/bk/blob/master/Note/img/cent6.png>
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent7.png
+<img src=https://github.com/anhbka/bk/blob/master/Note/img/cent7.png>
 
-https://github.com/anhbka/bk/blob/master/Note/img/cent8.png
+<img src=https://github.com/anhbka/bk/blob/master/Note/img/cent8.png>
 
 ```
 /boot partition with ~500MB of space
 swap (LVM) partition of 32GB of space (as we have 32GB of RAM)
 set the remaining disc space for root ( / ) of type LVM.
-```
-boot = 512MB
-swap = dung lượng ổ đĩa x1,5
+
+boot = 512MB,
+swap = dung lượng ổ đĩa x1,5,
 root = dung lượng còn lại
+```
 
 If you are happy with the way things look, click Done and review the changes, and then begin the installation.
