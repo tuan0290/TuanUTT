@@ -1,3 +1,4 @@
+```
 --Phân quyền cơ bản trên linux
 
 ---tạo user, và mật khẩu
@@ -97,3 +98,4 @@ dnf install --enablerepo=remi php-pear
 6. Module mail install
 pear install -a Mail
 
+```
