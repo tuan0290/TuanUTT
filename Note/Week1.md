@@ -1,3 +1,4 @@
+```
 Hiển thị routing table :# route
 In giá trị của các biến môi trường :# printenv
 Khởi động lại máy : shutdown -r now
@@ -75,3 +76,4 @@ ssh withou password
 https://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/
 ssh-keygen
 ssh-copy-id -i ~/.ssh/id_rsa.pub remote-hostroo2
+```
