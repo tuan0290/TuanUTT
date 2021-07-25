@@ -1,3 +1,4 @@
+```
 Tạo 10 file (file1.txt, file2.txt...) sử dụng vòng for 
 Tìm tất cả các file trong thư mục và ghi vào file log.txt
 
@@ -10,3 +11,4 @@ a=$(find *.txt |grep "file")
 touch log.txt
 echo "$a" > log.txt
 echo "Finish!"
+```
