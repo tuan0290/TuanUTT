@@ -7,7 +7,7 @@ for (( i=1 ; i<=10 ; i++ ))
 do
 touch "file$i.txt"
 done
-a=$(find *.txt |grep "file")
+a=$(find /root/test_shell -type f -name 'file*.txt')
 touch log.txt
 echo "$a" > log.txt
 echo "Finish!"
