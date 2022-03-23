@@ -14,7 +14,8 @@
 			- Nhược điểm khi Server bị dừng sẽ khồn thể kết nối. Dễ gây sự cố mất tài liệu
 	
 		-  Hệ Thống Quản Lý Phiên Bản Phân Tán - (Distributed Version Control Systems - DVCSs)
-			- Về cơ bản giống với CVCS nhưng ở đây các máy khách sao chép toàn bộ repository về máy Điều này có nghĩa là khi Server bị ngắt, các máy khách vẫn làm việc bình thường trên Database ở máy trạm, sau đó commit (chuyển) lên Server sau, hoặc Database ở Server bị lỗi thì máy khách bất kỳ đều cỏ thể phục hồi lại cho Server
+			- Về cơ bản giống với CVCS nhưng ở đây các máy khách sao chép toàn bộ repository về máy Điều này có nghĩa là khi Server bị ngắt, các máy khách
+vẫn làm việc bình thường trên Database ở máy trạm, sau đó commit (chuyển) lên Server sau, hoặc Database ở Server bị lỗi thì máy khách bất kỳ đều cỏ thể phục hồi lại cho Server
 
                <p align="center">
   <img src="https://images.viblo.asia/full/de65aef9-236b-46e8-845e-6bbbf22e9d64.png">
