@@ -12,15 +12,14 @@
   <img src="https://images.viblo.asia/full/cd075a32-c136-4b45-a72a-73be8d361b0d.png" width="350" title="hover text">
 </p>
 			- Nhược điểm khi Server bị dừng sẽ khồn thể kết nối. Dễ gây sự cố mất tài liệu
-	
-		-  Hệ Thống Quản Lý Phiên Bản Phân Tán - (Distributed Version Control Systems - DVCSs)
 		
-			- Về cơ bản giống với CVCS nhưng ở đây các máy khách sao chép toàn bộ repository về máy 
-			- khi Server bị ngắt, các máy khách vẫn làm việc bình thường trên Database ở máy trạm, sau đó commit (chuyển) lên Server sau, hoặc Database ở Server bị lỗi thì máy khách bất kỳ đều cỏ thể phục hồi lại cho Server
+		- HệThống Quản lý phiên bản Phân Tán (Distributed Version Control Systems - DVCSs)
+			- Về cơ bản giống với CVCSs  nhưng các máy client sao chép toàn bộ repository trên server về local
+			- Khi server bị ngắt máy khách vấn có thể làm việc bình thường trên database của máy client, sau đó có thể commit lên server sau.
+			- Máy khách cũng có thể phục hồi lại cho server
+	
 
-              
   <img src="https://images.viblo.asia/full/de65aef9-236b-46e8-845e-6bbbf22e9d64.png">
 
-
-	- Git chính là hệ thống quản lý phiên bản phân tán (DVCS), với các ưu điểm: tốc độ, đơn giản, phân tán, phù hợp với dự án lớn nhỏ.
+	- Git chính là hệ thống phiên bản phân tán (DVCs), với các ưu điểm về tốc độ, đơn giản, phân tán, phù hợp với dự án lớn nhỏ.
 
